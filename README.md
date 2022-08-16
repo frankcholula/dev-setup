@@ -48,8 +48,8 @@ If you run into a warining on importing the `lzma` module, run `brew install xz`
 
 * [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 * [terraform](https://www.terraform.io/)
-* [docker]()
-* [kubernetes-cli]()
+* [docker](https://www.docker.com/)
+* [kubernetes-cli](https://kubernetes.io/docs/tasks/tools/)
 ```bash
 brew install awscli
 brew tap hashicorp/tap
