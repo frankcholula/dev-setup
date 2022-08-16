@@ -55,12 +55,12 @@ brew install awscli
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew install kubernetes-cli
-brew isntall docker
+brew install --cask docker
 ```
  
 ### Quality of Life Optional Tools
-* kubie
-* lens
+* [kubie](https://github.com/sbstp/kubie)
+* [lens](https://k8slens.dev/)
 ```bash
 brew install kubie
 brew install --cask lens
