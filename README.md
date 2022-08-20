@@ -87,7 +87,9 @@ Other cask applications
 * Spectacle
 * Messenger
 * Spotify
-
+* Ledger-Live
 ```bash
-brew install --cask authy 1password spectacle messenger spotify
+brew install --cask authy 1password spectacle messenger spotify ledger-live
 ```
+## Windows
+If you're using WSL, remember to install the extension `Remote - WSL` in order to use tools like `git` natively.
