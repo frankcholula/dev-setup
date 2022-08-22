@@ -88,8 +88,10 @@ Other cask applications
 * Messenger
 * Spotify
 * Ledger-Live
+* chrome-remote-desktop-host
+* Grammarly
 ```bash
-brew install --cask authy 1password spectacle messenger spotify ledger-live
+brew install --cask authy 1password spectacle messenger spotify ledger-live chrome-remote-desktop-host grammarly
 ```
 ## Windows
 If you're using WSL, remember to install the extension `Remote - WSL` in order to use tools like `git` natively.
