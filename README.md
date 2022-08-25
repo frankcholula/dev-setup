@@ -12,10 +12,12 @@ The rest of the installations are listed in the order of priorities
 4. [Miscellaneous](#Miscellaneous-)
 ## Shell Setup 🐚
 
-I use `zsh` as my default shell and 
-* [`ohmyzsh`](https://github.com/ohmyzsh/ohmyzsh/) to manage my zsh configuration.
+I use `zsh` as my default shell and some extra tools
+* [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/) to manage my zsh configuration.
+* [antigen](https://github.com/zsh-users/antigen) to manage my zsh pluigins
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install antigen
 ```
 * [`powerlevel10k`](https://github.com/romkatv/powerlevel10k) for my theme
 ```
@@ -61,10 +63,15 @@ brew install --cask docker
 ### Quality of Life Optional Tools
 * [kubie](https://github.com/sbstp/kubie)
 * [lens](https://k8slens.dev/)
+
 ```bash
 brew install kubie
 brew install --cask lens
 ```
+
+## Linting
+* [shellcheck]
+* [actionlint]
 
 
 ## Miscellaneous 🧰
